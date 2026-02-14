@@ -5,7 +5,7 @@ function HeartCard({ title, image, text }) {
   const [open, setOpen] = useState(false);
 
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center ">
       {/* Heart Button */}
       {!open && (
         <div

@@ -8,7 +8,7 @@ function Memories() {
     <div className="px-6 md:px-16 py-12 bg-pink-50 min-h-screen overflow-y-hidden">
       
       <h1 className="text-4xl font-bold text-center mb-12 text-gray-800">
-        Our Story
+        Our Love
       </h1>
 
       <div className="grid md:grid-cols-3 gap-10 ">

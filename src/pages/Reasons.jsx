@@ -1,39 +1,39 @@
 import HeartCard from "../components/HeartCard";
 import fifth from "../assets/fifth.jpeg";
 import sixth from "../assets/sixth.jpeg";
-import second from "../assets/second.jpeg";
+import first from "../assets/first.jpeg";
 import seventh from "../assets/seventh.jpeg";
 
 function Reasons() {
   return (
     <div className="p-10">
       <h1 className="text-4xl font-bold text-center mb-10">
-        Why I Love You
+        I Love You 💖
       </h1>
 
       <div className="grid md:grid-cols-4 gap-8">
         <HeartCard
           title="Your Smile"
-          image={fifth}
-          text="Your smile changes my entire day."
+          image={sixth}
+          text="I always tell you that I love your smile, it stirs something beautiful and magical inside my heart..❤️"
         />
 
         <HeartCard
           title="Your Support"
-          image={sixth}
-          text="You always believe in me."
+          image={fifth}
+          text="U always encourage and guide me in everything, ur support means the world to me..❤️"
         />
 
         <HeartCard
           title="Your love"
-          image={second}
-          text="Your love means everything to me."
+          image={first}
+          text="Some love may not be shown, but it is the most beautiful and strongest of all,just like yours..❤️"
         />
 
         <HeartCard
           title="Your care"
           image={seventh}
-          text="Your care makes my world brighter."
+          text="Your attitude seems like you don’t care about me, but actually you take good care of me..❤️"
         />
       </div>
     </div>

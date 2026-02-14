@@ -6,7 +6,7 @@ function Forever() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen text-center">
       <h1 className="text-5xl font-bold mb-10">
-        Will You Be My Forever?
+        Will You Be My Forever Valentine..?
       </h1>
 
       {!yes ? (
@@ -18,7 +18,7 @@ function Forever() {
         </button>
       ) : (
         <h2 className="text-3xl mt-6 animate-bounce">
-          I Love You Forever ❤️
+          “I will love you forever and stay by your side, no matter what..❤️” 
         </h2>
       )}
     </div>
